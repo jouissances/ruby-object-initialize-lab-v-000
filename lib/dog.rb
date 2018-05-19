@@ -4,7 +4,7 @@ class Person
   end
 end
 
-class Dog(name, breed = "Mutt")
+class Dog(name, breed="Mutt")
   def initialize
     @name = name
     @breed = breed
