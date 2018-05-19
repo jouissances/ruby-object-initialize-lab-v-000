@@ -3,3 +3,10 @@ class Person
     @name = name
   end
 end
+
+class Dog(name, breed = "Mutt")
+  def initialize
+    @name = name
+    @breed = breed
+  end
+end
