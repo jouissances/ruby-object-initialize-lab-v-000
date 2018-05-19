@@ -5,7 +5,7 @@ class Person
 end
 
 class Dog(name, breed="Mutt")
-  def initialize
+  def initialize(name, breed)
     @name = name
     @breed = breed
   end
